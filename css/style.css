@@ -1,0 +1,111 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+html,body{
+	height: 100%;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+.wrapper {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.inner{
+	padding: 30px;
+	border: 1px solid #6c757d;
+	border-radius: 10px;
+}
+.inner h1{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.courses {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.course {
+	padding: 15px;
+	border: 1px solid #6c757d;
+	border-radius: 10px;
+	width: 45%;
+	text-align: center;
+}
+.course__title {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.course__value {
+	font-size: 40px;
+}
+.course__value.red {
+	color: red;
+}
+.course__value.green {
+	color: green;
+}
+.trade {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-bottom: 20px;
+}
+.trade__item {
+	width: 45%;
+}
+.trade__item p, .trade__item select{
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+.trade__item input{
+	padding: 0 10px;
+	width: 100%;
+	height: 35px;
+	background: #EFF0F2;
+	border-radius: 5px;
+}
+.email{}
+.email p{
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+.email input{
+	padding: 0 10px;
+	width: 100%;
+	height: 35px;
+	background: #EFF0F2;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+.email button{
+	width: 300px;
+	display: block;
+	margin: auto;
+	height: 35px;
+	background: #EFF0F2;
+	border-radius: 5px;
+	border: 1px solid #6c757d;
+}
+
+
+
+

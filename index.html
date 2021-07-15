@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Calc</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Кодировка страницы -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<form action="mail.php" method='get' class="inner">
+				<h1>Калькулятор конвертации валюты</h1>
+				<div class="courses">
+					<div class="course">
+						<p class="course__title">Курс USD</p>
+						<p class="course__value" data-value="USD">---</p>
+					</div>
+					<div class="course">
+						<p class="course__title">Курс EUR</p>
+						<p class="course__value" data-value="EUR">---</p>
+					</div>
+				</div>
+				<div class="trade">
+					<div class="trade__item">
+						<p>Введите сумму в RUB:</p>
+						<input type="number" id="RUB-input" name='rub'>
+					</div>
+					<div class="trade__item">
+						<select id="valute-select" name='select'>
+							<option value="" disabled selected style='display:none;'>Выберите валюту</option>
+							<option value="USD">USD</option>
+							<option value="EUR">EUR</option>
+						</select>
+						<input type="number" disabled id="result-input" name='result'>
+					</div>
+				</div>
+				<div class="email">
+					<p>Отправить на почту:</p>
+					<input type="email" name='email'>
+					<button type="submit">Записаться на обмен валюты</button>
+				</div>
+			</form>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<script src="js/main.js"></script>
+	</body>
+</html>
